@@ -1,0 +1,41 @@
+body{
+    background-color:pink;
+    }
+    .header{
+    background-color :#000;
+    color : #fff;
+    border-color:#080808;
+    min-height : 25px;
+    border : 1px solid transparent; }
+    
+    
+    
+    .content{
+    min-height:150px;
+    }
+    .banner-image{
+    padding-bottom:5px;
+    margin-bottom:2px;
+    text-align:center;
+    color:#f8f8f8;
+    background-size:cover;
+    height:300px;
+    }
+    .inner-banner-image{
+    padding-top:4%;
+    width:80%;
+    margin:auto;
+    }
+    .banner_content{
+    position:relative;
+    padding-top:4%;
+    padding-bottom:4%;
+    overflow:hidden;
+    margin-bottom:12%;
+    background-color:rgba(0,0,0,0.7);
+    max-width:600px;
+    margin-left:23%;
+    }
+    p{
+    font-size:20px;
+    }

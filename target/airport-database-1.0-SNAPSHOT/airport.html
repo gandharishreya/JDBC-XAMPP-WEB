@@ -1,0 +1,31 @@
+
+<html>
+<head>
+ <link rel="stylesheet" href="rep1.css">
+<title>Airport mapping database</title>
+</head>
+<body><center>
+<div style="color:magenta">
+<h1><b><center>Airport Database </b></h1>
+</div>
+<div class="header">
+<div class="inner-header">
+<div style="text-align:left"  class="logo" ><a href="index.php">Passenger Login</a></div>
+<div  style="text-align:right" class="header-link"  ><a href="staff.php" >Airport Staff login</a></div></div></div>
+<!--form action="rep1.php" method="get"-->
+
+<form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
+<br>
+<label for="table">Select an option </label>
+<select name="table" id="table">
+<option value="airport">airport</option>
+<option value="airline">airline</option>
+
+</select><br>
+<input type="text" name="airportname" placeholder="enter the airport name">
+<input type="submit" name="submit" value="submit">
+</form>
+</br>
+
+</body>
+</html>
